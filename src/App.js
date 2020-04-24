@@ -1,15 +1,13 @@
-import React, { useState } from 'react';
-import Logon from './pages/Logon'
+import React, { useState } from 'react'
+import Routes from './routes'
 
 import './global.css'
 
 function App() {
 
   return (
-    <div>
-      <Logon />
-    </div>
-  );
+    <Routes />
+  )
 }
 
 export default App;
